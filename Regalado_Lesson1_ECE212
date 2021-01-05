@@ -1,0 +1,155 @@
+## Activity
+
+1. *Why	do	you	think	uderstanding	computer	programs	is	relevant	in	our	time	today especially	in	the	new	normal?*
+
+    * Because computer programs are the way to make application softwares which is useful for everyone in terms of business, education, employment, communication and media that needed to understand gradually to easily catch up the trends in digital world.
+    
+    
+2. *If	you	were	able	to	learn	computer	program	what	program	will	you code?	Why?*
+
+    * I will learn python programming language because this is popular in digital world and I think this computer program is a high level in programming aspects.
+ 
+    
+3. *What	would	be	your	primary	motivation	in	learning	programming?*
+
+    * My motivation is my course that I am currently enrolled because phyton programming language helps us in the future and it is highly connected to the course.
+    
+    
+## Application
+
+1. *Why do you think Python is the most applicable programming language for scientific computing?*
+
+    * Because it specifies which line has the error immediately and it is a productive and user friendly language for all programmers compared C++ and Java which has more complexity than phyton language.
+    
+    
+    
+2. *If	Python	can	build	anything,	where	do	you	think	Python	is	not	applicable	for?*
+
+    * It is not applicable  in building OS.
+    
+
+Exercise 1: Mailing Address (Solved, 9 Lines)
+
+print("Complete Name: Jovito Miguel Regalado")
+print("Complete Address: Arguelles Subddivision, Barangay San Fransisco, Panabo City, Davao del Norte 8105")
+print("Course: Bachelor Science in Electronics Engineering - BSEcE")
+print("School: University of Southeastern Philippines")
+
+## Exercise 2: Area of Room (solved, 13 Lines)
+
+Write a program that asks the user to enter the width and length of a room. Once these values have been read, your program should compute and display the area of the room. The length and the width will be entered as floating-point numbers. Include
+units in your prompt and output message; either feet or meters, depending on which unit you are more comfortable working with
+
+
+#Compute the Area of the room
+length = float(input("Enter the desired length of the room in ft/feet: "))
+width = float(input("Enter the desired width of the room in ft/feet: "))
+
+area = length * width
+
+print("The area of the room is",area, "square-feet.")
+
+## Exercise 3: Arithmetic (solve, 22 lines)
+
+Create a program that reads two integers, a and b, from the user. Your program should
+compute and display:  
+
+    •The sum of a and b  
+    •The difference when b is subtracted from a  
+    •The product of a and b  
+    •The quotient when a is divided by b  
+    •The remainder when a is divided by b  
+    •The result of log10 a  
+    •The result of log ab  
+    
+#The sum of a and b
+print("Enter two integers you want to add")
+
+a = float(input("Enter any integer: "))
+b = float(input("Enter any integer: "))
+
+sum = a + b
+
+print("The sum of the two integers is", sum)
+
+
+#The difference when b is subtracted from a
+print("Enter two integers you want to subtract")
+
+b = float(input("Enter any integer value for b: "))
+a = float(input("Enter any integer value for a: "))
+
+difference = b - a
+
+print("The difference of b - a is", difference)
+
+#The product of a and b
+print("Enter two integers you want to multiply")
+
+a = float(input("Enter any integer: "))
+b = float(input("Enter any integer: "))
+
+product = a * b
+
+print("The product of the two integers is", product)
+
+#The quotient when a is divided by b
+print("Enter two integers you want to divide")
+
+a = float(input("Enter any integer value for a: "))
+b = float(input("Enter any integer value for b: "))
+
+quotient = a/b
+
+print("The quotient of a/b is", quotient)
+
+#The remainder when a is divided by b
+print("Enter two integers you want to divide and the remainder will be shown to you")
+
+a = float(input("Enter your Dividend: "))
+b = float(input("Enter your Divisor: "))
+
+remainder = a % b
+
+print("The remainder of the quotient is", remainder)
+
+#The result of log10 a
+print("Enter any integer that you want to solve for its logarithm")
+
+a = float(input("Enter any integer for a: "))
+
+import math
+
+math.log10( a )
+
+print("math.log10(a) is", math.log10(a))
+
+#The result of log ab
+print("Enter any integer for a and b")
+
+a = float(input("integer a: "))
+b = float(input("integer b: "))
+
+import math
+math.log10(a*b)
+
+print("math.log10(a*b) is", math.log10(a*b))
+
+## Exercise 4: Area and Volume (15 lines)
+
+Write a program that begins by reading a radius, r, from the user. The program will continue by computing and displaying the area of a circle with radius r and the volume of a sphere with radius r. Use the pi constant in the math module in your
+calculations.
+
+print("Enter any radius")
+
+import math
+r = float(input("Enter any radius for r in meters: "))
+
+area = math.pi * r * r 
+volume = (4/3) * math.pi * r * r * r
+
+print("The area of a circle with radius r is",area,"meter-squared")
+print("The volume of a sphere with a radius r is", volume,"cubic meter")
+
+
+    
