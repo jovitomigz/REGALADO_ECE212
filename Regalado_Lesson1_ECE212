@@ -1,3 +1,5 @@
+#Lesson 1
+
 ## Activity
 
 1. *Why	do	you	think	uderstanding	computer	programs	is	relevant	in	our	time	today especially	in	the	new	normal?*
@@ -150,6 +152,190 @@ volume = (4/3) * math.pi * r * r * r
 
 print("The area of a circle with radius r is",area,"meter-squared")
 print("The volume of a sphere with a radius r is", volume,"cubic meter")
+
+
+
+
+
+
+
+# Lesson 2
+## Introduction
+This	chapter	introduces	several	basic	building	blocks	of	Python	programs:
+  - literals,	like	numbers	and	character	strings
+  - operators,	like + and *
+  - function	calls,	which	take	values	as	inputs	and	compute	new	values
+  - variables,	which	save	values	so	they	can	be	used	later	in	the	program
+These	 are	 the	 basic	 building	 blocks	 that	 are	 assembled	 to	 create	 programs	 that	 you interact	 with	 everyday—from	 the	 software	 running	 on	 your	 smartwatch,	 to	 the infrastructure	behind	the	largest	websites,	and	every	app	running	on	your	phone.  
+
+
+## Activity
+
+Check	your	understanding from	previous	lesson	:
+
+1. An	algorithm	is:
+
+   A. A	solution	to	a	problem	that	can	be	solved	by	a	computer 
+   
+   B. A	step	by	step	sequence	of	instructions	that	if	followed	exactly	will	solve	the	problem	under consideration.
+   
+   C. A	series	of	instructions	implemented	in	a	programming	language.
+
+   D. A	special	kind	of	notation	used	by	programmers.
+
+***Answer: B
+
+2.  Source	code	is	another	name	for:
+
+    A.	the	instructions	in	a	program,	written	in	a	high-level	language.
+    
+    B.	the	language	that	you	are	programming	in	(e.g.,	Python).
+    
+    C.	the	environment/tool	in	which	you	are	programming.
+    
+    D.	the	number	(or	“code”)	that	you	must	input	at the	top	of	each	program	to	tell the	computer	how	to	execute	your	program.
+    
+***Answer: A
+
+3. What	is	 the	 difference	 between	 a	 high-level	 programming	language	 and	 a	low-level	programming	language?
+    
+    A.	It	is	high-level	if	you	are	standing	and	low-level	if	you	are	sitting.
+    
+    B.	It	is	high-level	if	you	are	programming	for	a	computer	and	low-level	if	you	are	programming	for	a	phone	or	mobile	device.
+    
+    C.	It	is	high-level	if	the	program	must	be	processed	before	it	can	run,	and	lowlevel	if	the	computer	can	execute	it	without	additional	processing.
+    
+    D.	It	is	high-level	if	it	easy	to	program	in	and	is	very	short;	it	is	low-level	if	it	is	really	hard	to	program	in	and	the	programs	are	really	long.
+    
+***Answer: C
+    
+4. Pick	the	best	replacements	for	1	and	2	in	the	following	sentence:	When	comparing	compilers	and	interpreters,	a	compiler	is	like	1	while	an	interpreter	is	like	2.
+
+    A.	1	=	a	process,	2	=	a	function
+
+    B.	1	=	translating	an	entire	book,	2	=	translating	a	line	at	a	time
+
+    C.	1	=	software,	2	=	hardware
+
+    D.	1	=	object	code,	2	=	byte	code
+
+***Answer: B
+
+5. The	activecode	interpreter	allows	you	to	(select	all	that	apply):
+
+    A.	save	programs	and	reload	saved	programs.
+
+    B.	type	in	Python	source	code.
+
+    C.	execute	Python	code	right	in	the	text	itself	within	the	web	browser.
+
+    D.	receive	a	yes/no	answer	about	whether	your	code	is	correct	or	not.
+    
+***Answer: A, B, C
+
+6. Codelens	allows	you	to	(select	all	that	apply):
+
+    A.	measure	the	speed	of	a	program’s	execution.
+
+    B.	control	the	step	by	step	execution	of	a	program.
+
+    C.	write	and	execute	your	own	Python	code.
+
+    D.	execute	the	Python	code	that	is	in	codelens.
+
+***Answer: B, D
+
+7. A	program	is:
+
+    A.	a	sequence	of	instructions	that	specifies	how	to	perform	a	computation.
+
+    B.	something	you	follow	along	at	a	play	or	concert.
+
+    C.	a	computation,	even	a	symbolic	computation.
+
+    D.	the	same	thing	as	an	algorithm.
+    
+***Answer: A
+    
+8. The	differences	between	natural	and	formal	languages	include:
+
+    A.	natural	languages	can	be	parsed	while	formal	languages	cannot.
+    
+    B.	ambiguity,	redundancy,	and	literalness.
+    
+    C.	there	are	no	differences	between	natural	and	formal	languages.
+    
+    D.	tokens,	structure,	syntax,	and	semantics.
+    
+***Answer: B
+    
+9. True	or	False:	Reading	a	program	is	like	reading	other	kinds	of	text.
+
+    A.	True
+    
+    B.	False
+    
+***Answer: B
+
+10. The	print	function:
+
+    A.	sends	information	to	the	printer	to	be	printed	on	paper.
+    
+    B.	displays	a	value	on	the	screen.
+    
+    C.	tells	the	computer	to	put	the	information	in	print,	rather	than	cursive,	format.
+    
+    D.	tells	the	computer	to	speak	the	information.
+    
+***Answer: B
+    
+
+## Application
+
+Distance	Between	Two	Points	on	Earth (27	Lines)
+
+The	surface	of	the	Earth	is	curved,	and	the	distance	between	degrees	of	longitude
+varies	 with	 latitude.	 As	 a	 result,	 finding	 the	 distance	 between	 two	 points	 on	 the	
+surface	of	the	Earth	is	more	complicated	than	simply	using	the	Pythagorean	theorem.
+Let	(t1,	g1)	and	(t2,	g2)	be	the	latitude	and	longitude	of	two	points	on	the	Earth’s
+surface.	The	distance	between	these	points,	following	the	surface	of	the	Earth,	in
+kilometers	is:
+
+distance	 = 6371.01 arccos(sin(t1) × sin(t2) + cos(t1) × cos(t2) × cos(g1 − g2))
+
+The	value	6371.01	in	the	previous	equation	wasn’t	selected	at	random.	It	is	the
+average	radius	of	the	Earth	in	kilometers
+
+ import math
+    #Function to calculate distnce
+    def calcDistance(lat1,long1,lat2,long2):
+     return  6371.01*math.acos(math.sin(lat1) *math.sin(lat2) +math.cos(lat1)*math.cos(lat2)*math.cos(long1-long2))
+    #Function to convert degree to radian
+    def convertRadians(val):
+     return val*0.01745329252
+    #Main function
+    def main():
+    #Prompt for latitude ang longitude of point1
+        lattitude1=(float(input("Enter lattitude of point1: ")))
+        longitude1=(float(input("Enter longitude of point1: ")))
+    #Prompt for latitude ang longitude of point2
+        lattitude2=(float(input("Enter lattitude of point2: ")))
+        longitude2=(float(input("Enter longitude of point2: ")))
+    #Get radian values
+        lattitude1=convertRadians(lattitude1)
+        longitude1=convertRadians(longitude1)
+        lattitude2=convertRadians(lattitude2)
+        longittude2=convertRadians(longitude2)
+    #Display result
+        print('Distance between two points = %.4f kms'%calcDistance(lattitude1,longitude1,lattitude2,longitude2))
+    #program starts here
+    if __name__=="__main__":
+     main()
+
+
+
+
+
 
 
     
